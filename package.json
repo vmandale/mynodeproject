@@ -1,19 +1,21 @@
 {
-  "name": "mynodeproject",
-  "version": "1.0.0",
-  "description": "my test node project 01",
-  "main": "index.js",
+  "name": "restful-angularjs-nodejs",
+  "version": "2.0.0",
+  "description": "An example of using the Node.js SDK for Couchbase with an AngularJS frontend",
+  "author": "Couchbase, Inc.",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "forever start app.js",
+      "stop": "forever stopall"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vmandale/mynodeproject.git"
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "couchbase": "^2.0.8",
+    "express": "^4.13.0",
+    "node-forge": "^0.6.30",
+    "uuid": "^2.0.1"
   },
-  "author": "vmandale@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vmandale/mynodeproject/issues"
-  },
-  "homepage": "https://github.com/vmandale/mynodeproject#readme"
+  "devDependencies": {
+    "forever": "^0.15.3"
+  }
 }
