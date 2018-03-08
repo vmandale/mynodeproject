@@ -1,0 +1,19 @@
+{
+  "name": "mynodeproject",
+  "version": "1.0.0",
+  "description": "my test node project 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmandale/mynodeproject.git"
+  },
+  "author": "vmandale@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmandale/mynodeproject/issues"
+  },
+  "homepage": "https://github.com/vmandale/mynodeproject#readme"
+}
